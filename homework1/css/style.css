@@ -1,0 +1,153 @@
+body{
+	margin:0;
+	padding:0;
+	height: 555px;
+	width: 1363px;
+	background-color: black;
+	display: inline-block;
+}
+.first{
+	height: 555px;
+	width: 1363px;
+	background-color: black;
+}
+
+.head{
+	min-height: 80px;
+	width:1363px;
+	text-align: center;
+	float: left;	
+	background: red;
+}
+
+.logoMain{
+	width: 25%;
+	min-height:inherit ;
+	background: white;
+	float: left;
+	line-height: 80px;
+}
+
+.menu{
+	width: 75%;
+	min-height:inherit ;
+	background: white;
+	float: left;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.menu ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu ul li{
+	list-style-type: none;
+	float: left;
+	padding: 31px;
+	background: transparent;
+}
+
+.menu ul li:hover{
+	
+	background: grey;
+}
+
+
+.menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+.mar{
+	margin-right: 50px;
+}
+
+.fText{
+	font-size: 30px;
+	font-weight: 800;
+	color: white;
+}
+
+.and{
+	font-size: 30px;
+	font-family: "Az Parsek";
+	color: white;
+}
+.sine{
+	height: 257px;
+	line-height: 257px;
+	width: 1363px;
+	font-size: 120px;
+	background-color: green;
+	background:url(../photo/landscape-2-1250x300.jpg) no-repeat;
+	background-size: cover;
+	text-align: center;
+	display: inline-block;
+	float: left;
+}
+.gobek{
+	height: 50px;
+	line-height: 50px;
+	width: 1363px;
+	background-color: white;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	font-size: 30px;
+	font-weight: 800px;
+}
+.menyu{
+   padding: 45px;
+   width: 300px;
+   height: 180px;
+   background: white;
+   float: left;
+}
+.ikon_parent{
+   width: 100%;
+   height: 60px;
+   float: left;
+   background: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.ikon{
+   width: 60px;
+   height: 60px;
+   background-image: url(../homework1/photo/landscape-2-300x300.jpg);
+   background-repeat: no-repeat;
+   border-radius: 50%;
+   background-size: 100%;
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.name{
+   width: 100%;
+   height: 30px;
+   float: left;
+   background-color: white;
+   display: flex;
+   font-family:" Arial Black Az Lat";
+   align-items: center;
+   justify-content: center;
+}
+.foot{
+   width: 100%;
+   min-height: 30px;
+   float: left;
+   background-color: white;
+}
+
+.mmm{
+   width: 100%;
+   min-height: 70px;
+   background: white;
+   float: left;
+   display: flex;
+   justify-content: space-between;
+}
